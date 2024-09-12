@@ -92,8 +92,9 @@ body {
 
 .card {
   border-radius: 20px;
-  background-color: rgba(249, 246, 246, 0.600);
+  background-color: rgba(170,170,170, 0.6);
   padding: 10px;
+  padding-bottom: 30px;
   font-family: "Poppins", sans-serif;
   margin: 25px;
   display: flex;
@@ -103,11 +104,19 @@ body {
   cursor: pointer;
 }
 
+.card:hover{
+  background-color: #ffe449;
+  color: black;
+}
+
+.card:hover h4{
+  color: black;
+}
 
 .card h4 {
-  color: #0f1011;
+  text-transform:uppercase;
   font-size: 35px;
-  color: #dc2f2f;
+  color: #fff;
   margin: 15px 0;
 }
 
@@ -130,7 +139,6 @@ ul li {
 .desc {
   margin-right: 24px;
   font-weight: 300;
-  color: #1a244d;
 }
 
 ul li a {
