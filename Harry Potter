@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harry Potter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="nav">
+        <img class="navimg" src="img/logo.png" alt="logo" />
+        <div class="right">
+          <ul>
+            <li><a href="#home" class="home1">Home</a></li>
+            <li><a href="#characters" class="chars">Characters</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="content" id="home">
+    <div class="text">
+      <section class="heading">
+        <h2 class="title">
+          <div class="title1">Harry</div>Potter
+        </h2>
+        <h2 class="slogan">I solemnly swear I am up to no good</h2>
+      </section>
+    </div>
+  </div>
+  <h3 class="sub" id="characters">CHARACTERS</h3>
+
+  <div class="row">
+    <div class="card">
+      <img src="img\dumbledore.jpg" alt="Albus Dumbledore" id="dumbledore" />
+      <div class="container">
+        <h4><strong>Albus Dumbledore</strong></h4>
+        <p class="desc">
+          Albus Dumbledore, a character from the beloved Harry Potter series created by J.K. Rowling, is one of the most
+          iconic and enigmatic figures in the wizarding world. As the wise and kind-hearted headmaster of Hogwarts
+          School of Witchcraft and Wizardry, Dumbledore serves not only as a mentor and protector to the young wizard
+          Harry Potter but also as a symbol of wisdom, integrity, and moral strength.
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/HarryPotter.webp" alt="Harry Potter">
+      <div class="container">
+        <h4><strong>Harry Potter</strong></h4>
+        <p class="desc">Harry Potter is described as a gifted wizard apprentice. He has a particular talent for flying,
+          which manifests itself in Harry Potter and the Philosopher's Stone the first time he tries it, and gets him a
+          place on a Quidditch team one year before the normal minimum joining age.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img\character3.jpg" alt="Astoria Greengrass" />
+      <div class="container">
+        <h4><strong>Astoria Greengrass</strong></h4>
+        <p class="desc">
+          Astoria Malfoy (née Greengrass) is a minor character in Harry Potter. 
+          In between the battle of Hogwarts and the epilogue, Astoria married Draco Malfoy 
+          and became pregnant with Scorpius Malfoy, their only child. Astoria tragically inherited the family
+          curse that her ancestor had and she passed away.
+          She also was a member of the Greengrass family, one of the Sacred Twenty-Eight. </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/GinnyWeasley.webp" alt="Ginny Weasley">
+      <div class="container">
+        <h4><strong>Ginny Weasley</strong></h4>
+        <p class="desc">Ginevra Molly "Ginny" Weasley is one of the main characters in the Harry Potter franchise. In the films, she was portrayed by Bonnie Wright. The only daughter of Arthur and Molly, the younger sister of Bill, Charlie, Percy, Fred, George and Ron, Ginny is the only girl in the Weasley family. At a young age, she fell in love with the wizard Harry Potter but could never act upon those feelings, until the sixth film/book. She is a very talented and outspoken person.</p>
+      </div>
+    </div>
+      <div class="card">
+        <img src="img/Ron Weasley.jpg" alt="Harry Potter">
+      <div class="container">
+        <h4><strong>Ron Weasley</strong></h4>
+        <p class="desc">Ronald Bilius Weasley is a fictional character in J. K. Rowling's Harry Potter fantasy novel series. His first appearance was in the first book of the series, Harry Potter and the Philosopher's Stone, as the best friend of Harry Potter and Hermione Granger. He is a member of the Weasley family, a pure blood family that resides in "The Burrow" outside Ottery St. Catchpole. Being the only member of the three main characters raised in magical society, he also provides insight into the Wizarding World's magical customs and traditions.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/HermioneGranger.jpg" alt="Hermione Granger">
+      <div class="container">
+        <h4><strong>Hermione Granger</strong></h4>
+        <p class="desc">Hermione's most prominent features include her prodigious intellect and cleverness. She is levelheaded, book-smart, and always very logical. Throughout the series, Hermione uses the skills of a librarian and teacher to gather the information needed to defeat Voldemort, the "Dark Lord".</p>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
